@@ -1,10 +1,7 @@
 # Cash server
 
 A project for learning [Tokio](https://tokio.rs/tokio/tutorial) and [Redis](https://redis.io/).
-Based on the tokio tutorial, but greatly simplified.
-
-Implementing a cache server/nosql database using the RESP protocol
-Based on tokio's guide
+A simpler version of the [mini-redis](https://github.com/tokio-rs/mini-redis)
 
 You can run the server
 
