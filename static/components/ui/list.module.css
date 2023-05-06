@@ -1,0 +1,73 @@
+
+
+
+
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.newItemContainer {
+    margin: 0;
+    padding: 15px;
+}
+
+.newItemIcon {
+    width: 35px;
+    position: relative;
+    left: 105%;
+    top: -36px;
+}
+
+.newItemIcon:hover {
+    cursor: pointer;
+}
+
+.newTaskInput {
+    margin: 0;
+    border: none;
+    padding: 10px;
+    width: 230px;
+}
+
+.nonCheckedItem {
+    padding: 10px;
+}
+
+.doneItemIcon {
+    width: 35px;
+    margin-right: 1rem;
+}
+
+.doneItemIcon:hover {
+    cursor: pointer;
+}
+
+.removeItemIcon {
+    width: 35px;
+}
+
+.removeItemIcon:hover {
+    cursor: pointer;
+}
+
+.itemName {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    overflow-wrap: break-word;
+    width: 70%;
+}
+
+.item {
+    display: flex;
+}
+
+.doneItem {
+    display: flex;
+    color: #83ff83;
+    text-decoration: line-through;
+}
+
